@@ -1,0 +1,96 @@
+    var Title = myform.getComponent('Scen1Title').getValue();
+    console.log(Title);
+    	 
+    	 jQuery("a[href='#scenario1']").empty();
+    	 jQuery("a[href='#scenario1']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Scen1Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Scen1Title').getValue();
+    		 jQuery("a[href='#scenario1']").html(Title);
+    });
+    
+     var Title = myform.getComponent('Scen2Title').getValue();
+    	 
+    	 jQuery("a[href='#scenario2']").empty();
+    	 jQuery("a[href='#scenario2']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Scen2Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Scen2Title').getValue();
+    		 jQuery("a[href='#scenario2']").html(Title);
+    });
+    
+        var Title = myform.getComponent('Scen2Title1').getValue();
+    	 
+    	 jQuery("a[href='#scenario3']").empty();
+    	 jQuery("a[href='#scenario3']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Scen2Title1]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Scen2Title1').getValue();
+    		 jQuery("a[href='#scenario3']").html(Title);
+    });
+    
+        var Title = myform.getComponent('Scen4Title1').getValue();
+    	 
+    	 jQuery("a[href='#scenario4']").empty();
+    	 jQuery("a[href='#scenario4']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Scen4Title1]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Scen4Title1').getValue();
+    		 jQuery("a[href='#scenario4']").html(Title);
+    });
+    
+         var Title = myform.getComponent('Y2Scen1Title').getValue();
+    	 
+    	 jQuery("a[href='#Y2scenario1']").empty();
+    	 jQuery("a[href='#Y2scenario1']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Y2Scen1Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Y2Scen1Title').getValue();
+    		 jQuery("a[href='#Y2scenario1']").html(Title);
+    });
+    
+        var Title = myform.getComponent('Y2Scen2Title').getValue();
+    	 
+    	 jQuery("a[href='#Y2scenario2']").empty();
+    	 jQuery("a[href='#Y2scenario2']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Y2Scen2Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Y2Scen2Title').getValue();
+    		 jQuery("a[href='#Y2scenario2']").html(Title);
+    });
+    
+     var Title = myform.getComponent('Y2Scen3Title').getValue();
+    	 
+    	 jQuery("a[href='#Y2scenario3']").empty();
+    	 jQuery("a[href='#Y2scenario3']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Y2Scen3Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Y2Scen3Title').getValue();
+    		 jQuery("a[href='#Y2scenario3']").html(Title);
+    });
+    
+     var Title = myform.getComponent('Y2Scen4Title').getValue();
+    	 
+    	 jQuery("a[href='#Y2scenario4']").empty();
+    	 jQuery("a[href='#Y2scenario4']").html(Title);
+    	 
+    	 
+    	 jQuery('textarea[name="data[Y2Scen4Title]"]').on('change keyup paste', function() {
+    	
+    		 var Title = myform.getComponent('Y2Scen4Title').getValue();
+    		 jQuery("a[href='#Y2scenario4']").html(Title);
+    });
